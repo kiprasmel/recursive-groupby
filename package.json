@@ -1,6 +1,6 @@
 {
   "name": "recursive-groupby",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/recursive-groupby.js",
   "author": "Kipras Melnikovas <kipras@kipras.org> (https://kipras.org/)",
   "license": "MIT",
