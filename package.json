@@ -1,0 +1,14 @@
+{
+  "name": "recursive-groupby",
+  "version": "0.0.0",
+  "main": "dist/recursive-groupby.js",
+  "author": "Kipras Melnikovas <kipras@kipras.org> (https://kipras.org/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc -b",
+    "prepack": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "4.5.5"
+  }
+}

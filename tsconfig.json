@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": [
+			"es5",
+			"es6", //
+			"es2019"
+		],
+		"declaration": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"moduleResolution": "node",
+		"removeComments": false,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": false,
+		"resolveJsonModule": true,
+		"downlevelIteration": true,
+		"baseUrl": "."
+	},
+	"exclude": [
+		"node_modules", //
+		"dist"
+	],
+	"include": [
+		"./**/*.ts" //
+	]
+}
